@@ -6,5 +6,5 @@
 }
 /*  adding a picture background */
 body{
-    background-image:  ;
+    background: url('images/garden.jpg');
 }
