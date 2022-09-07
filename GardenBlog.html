@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title> Ligaya Garden Blog </title>
 </head>
@@ -23,24 +22,42 @@
     </header>
  <main>
  <div class="container">
-    <div class="content" >
-      <!--  section for pictures of garden -->
-    <section class="corn"> 
-         <h2> here are some of my vegatables i have grown throughtout the years. </h2>
-            <img src="images/corn.jpg" class="float-right">
-    </section>
-    <section class="potatoes">
-        <h2> Just harvested potatoes!</h2> 
-        <img src="images/potatoes.jpg" class=" float-left">
-    </section>
+    <div class="carousel" >
+      <!--   carousel section for pictures of garden -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/corn.jpg" class="d-block w-100" alt="corn">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>my Corn!</h5>
+              <p>This year I tried my luck in growing Corn.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/potatoes.jpg" class="d-block w-100" alt="potatoes">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Cauliflower.jpg" class="d-block w-100" alt="Cauliflower">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous Pic</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next pic</span>
+        </button>
+      </div>
+    </div>
+  </div>
 </main>
-</div>
-</div>
-<aside class="More info">
-        <!--  button for other gardening tips/ links to other almacs  -->
-        <h2>  Shovels at rakes plows. Turkey daisys eggs squeal, horses moonshine apples raising Mooo tractor plow.  </h2>
-        <button type="button" class="btn btn-success"> Farmers Almanac</button>
-</aside>
+
+<!-- <aside class="More info">
+        button for other gardening tips/ links to other almacs  -->
+        <!-- <h2>  Shovels at rakes plows. Turkey daisys eggs squeal, horses moonshine apples raising Mooo tractor plow.  </h2>
+        <button type="button" class="btn btn-success"> Farmers Almanac</button> -->
+<!-- </aside> --> -->
 <footer>
    Ligaya's Garden! 
  </footer>
