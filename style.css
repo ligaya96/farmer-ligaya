@@ -4,7 +4,28 @@
     padding: 0;
     margin: 0;
 }
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(119, 0, 103, 0.8);
+    font-size: medium;
+}
 /*  adding a picture background */
 body{
     background: url('images/garden.jpg');
+    /* background-size: ; */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
 }
+.moreinfo{   
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #cdd3d6; 
+ }
+   
